@@ -1,0 +1,82 @@
+.login-container {
+    /* Container for the login section */
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    display: none; /* Initially hidden */
+}
+
+.toggleDisplayLoginPage {
+    display: flex; /* Display login page when toggled */
+}
+
+.login-section {
+    width: 45%;
+    padding: 20px;
+}
+
+.login-section h2 {
+    margin-bottom: 10px;
+}
+
+.login-section p {
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+input[type="email"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.forgot-password {
+    display: block;
+    margin-bottom: 20px;
+    color: #3B1500;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.sign-in-btn, .create-account-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3B1500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sign-in-btn:hover, .create-account-btn:hover {
+    color: #3B1500;
+    background-color: #EBEBEB;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
